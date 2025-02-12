@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6qm8nsw3o7r8"]
+
+[ext_resource type="PackedScene" uid="uid://b5ttsfrcnpe14" path="res://player.tscn" id="1_dcfl5"]
+[ext_resource type="PackedScene" uid="uid://bywvbghuem80p" path="res://pine_tree.tscn" id="2_nykhw"]
+
+[node name="Game" type="Node2D"]
+y_sort_enabled = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -2301.0
+offset_top = -1594.0
+offset_right = 2649.0
+offset_bottom = 1685.0
+color = Color(0.278431, 0.52549, 0.0235294, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_dcfl5")]
+position = Vector2(1055, 659)
+
+[node name="PineTree" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(734, 204)
+
+[node name="PineTree2" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(964, 335)
+
+[node name="PineTree3" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(802, 243)
+
+[node name="PineTree4" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(691, 303)
+
+[node name="PineTree5" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(282, 224)
+
+[node name="PineTree6" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(142, 471)
+
+[node name="PineTree7" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(355, 693)
+
+[node name="PineTree8" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(1303, 817)
+
+[node name="PineTree9" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(392, 760)
+
+[node name="PineTree10" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(424, 843)
+
+[node name="PineTree11" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(449, 932)
+
+[node name="PineTree12" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(1230, 351)
+
+[node name="PineTree13" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(1418, 436)
+
+[node name="PineTree14" parent="." instance=ExtResource("2_nykhw")]
+position = Vector2(1221, 522)
