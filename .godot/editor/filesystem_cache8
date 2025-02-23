@@ -1,9 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739372937
+::res://::1740298883
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1739370792::0::1::::<><>::
+game.tscn::PackedScene::4596093127296736467::1739391872::0::1::::<><>::uid://b5ttsfrcnpe14::::res://player.tscn<>uid://bywvbghuem80p::::res://pine_tree.tscn
 icon.png::CompressedTexture2D::621515402784007901::1739370792::1739371632::1::::<><>::
-player.gd::GDScript::-1::1739372687::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::4532495226301323369::1739372687::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn
+pine_tree.tscn::PackedScene::4117646411105490245::1739391872::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
+player.gd::GDScript::-1::1739373673::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4532495226301323369::1739391872::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn
 ::res://addons/::1739370792
 ::res://addons/colorpicker_presets/::1739370792
 colorpicker_presets.gd::GDScript::-1::1739370792::0::1::::<>EditorPlugin<>::
